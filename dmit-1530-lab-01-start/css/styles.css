@@ -11,4 +11,69 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #e2dfe7;
+    font-size: 1rem;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    border: #405B5B;
+    font-size: 1.25rem;
+}
+
+
+h1 {
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #405B5B;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 960px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+
+
+
+
+
+footer {
+    background-color: #182222;
+    color: #405B5B;
+    width: 100%;
+    text-align: center;
 }
